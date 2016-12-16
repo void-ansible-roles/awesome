@@ -1,0 +1,7 @@
+---
+- name: Install awesome packages
+  xbps:
+    pkg:
+      - awesome
+      - dmenu
+    state: present
